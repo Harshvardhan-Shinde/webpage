@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    color:white; 
+    float: left;
+    padding: 10px 15px ;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;   
+}
+.logo i{
+    font-size: 2rem;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.search-bar{
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255,255,255,0.2);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.search-bar button i{
+    width: 17px;
+}
+.search-bar button{
+    border: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius:50% ;
+    width: 40px;
+    height: 40px;
+    background: rgb(214, 203, 203);
+    cursor: pointer;
+}
+span{
+    font-size: 0.85rem;
+}
+.nav-second{
+    font-size:1rem ;
+    font-weight: 700; 
+}
+.nav-cart{
+    margin-top: 10px;
+    height: 25px;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: end;
+
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+}
+.nav-signin{
+    margin-left: 10px;
+}
+.nav-profile-logo i{
+    font-size: 1.5rem;
+}
+.panel{
+    height: 30px;
+    background-color: #222f3d;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-all a{
+    text-decoration: none;
+    color:white; 
+    float: left;
+    padding: 4px 15px ;
+}
+.panel-all a:hover{
+    background-color: white;
+    color: black;   
+}
+.panel-options{
+    width:70% ;
+    font-size: 0.8rem;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-options a{
+    text-decoration: none;
+    color:white; 
+    float: left;
+    padding: 8px 15px ;
+}
+.panel-options a:hover{
+    background-color: white;
+    color: black;   
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.panel-deals a{
+    text-decoration: none;
+    color:white; 
+    float: left;
+    padding: 4px 15px ;
+}
+a:hover{
+    background-color: white;
+    color: black;   
+}
+
+.hero-section {
+    background-image: url("https://m.media-amazon.com/images/I/71U-Q+N7PXL._SX3000_.jpg");
+    height: 325px;
+    background-size: cover;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;   
+}
+.shop-section a{
+    text-decoration: none;
+    color:rgb(29, 96, 242);    
+}
+.box{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    height: 350px;
+    width: 24%;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+    width: 290px;
+    background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: rgb(72, 72, 215);
+}
+
+.foot-panel1{
+    background-color: #37475A;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    background-color: #37475A;
+    color:white;
+    height: 40px;
+    width: 1500px;
+    font-size: 1rem;
+    
+}
+.button:hover{
+    background-color: #5f7999;
+}
+.foot-panel2{
+    background-color:#222f3d ;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot-panel2 a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(216, 201, 201);    
+}
+.foot-panel2 a:hover{
+   background-color:#222f3d ;
+   color: white;
+}
+ul{
+    margin-top: 30px;
+}
+.foot-panel3{
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+.page{
+   padding-top:20px;
+   
+}
+.page a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+.page a:hover{
+    background-color:#0F1111 ;
+    color: rgb(93, 93, 242);
+}
+.copyright{
+    padding-top: 5px;
+}
